@@ -1,0 +1,11 @@
+inp=int(input())
+rtot=0
+temp=inp
+while(inp>0):
+    rem=inp%10
+    rtot=rtot*10+rem
+    inp//=10
+if(rtot==temp):
+    print("yes")
+else:
+    print("no")
