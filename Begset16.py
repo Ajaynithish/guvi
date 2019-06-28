@@ -1,6 +1,6 @@
 inp=int(input())
 if(inp%400==0):
-    print("Yes")
+    print("yes")
 elif(inp%4==0 and inp%100!=0):
     print("yes")
 else:
